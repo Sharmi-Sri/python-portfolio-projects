@@ -5,7 +5,7 @@ Two beginner-friendly console projects built with **core Python only**. No extra
 | # | Project | Skills shown |
 |---|---------|--------------|
 | 1 | [Hangman Word Guessing Game](hangman/hangman.py) | String manipulation, sets, loops, control flow, modular functions |
-| 4 | [Rule-Based Terminal Chatbot](chatbot/chatbot.py) | Regular expressions, multi-intent recognition, state handling, functions |
+| 4 | [Rule-Based Terminal Chatbot](chatbot.py) | Regular expressions, multi-intent recognition, state handling, functions |
 
 ## Requirements
 
@@ -45,9 +45,9 @@ A responsive terminal assistant that detects **multiple intents in a single mess
 
 **Run**
 ```
-python chatbot/chatbot.py
+python chatbot.py
 ```
-On Windows, if `python` is not recognised, use `py chatbot\chatbot.py`.
+On Windows, if `python` is not recognised, use `py chatbot.py`.
 
 **Example**
 ```
@@ -65,8 +65,7 @@ Sparky: The answer is 48.
 python-portfolio-projects/
 ├── hangman/
 │   └── hangman.py
-├── chatbot/
-│   └── chatbot.py
+├── chatbot.py
 └── README.md
 ```
 
